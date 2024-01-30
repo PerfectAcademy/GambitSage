@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Gambit Sage Portfolio</title>
+  <meta content="Data Analyst Porfolio" name="description">
+  <meta content="Data Analyst, Projects, Coding, Programming, Web Scraping" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/static/assets/img/datasage.jpg" rel="icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="/static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/static/assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+ <style>
+  /* Popup styles */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ </style>
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html"></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#work">Work</a></li>
+            <li><a class="nav-link scrollto " href="/static/assets/resume/GODSENTDATASAGE.pdf" target="_blank">Resume</a></li>
+            <li><a class="nav-link scrollto " href="#blog">Blog</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(/static/assets/img/p3.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="hero-title mb-4">I am Izah Godsent</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Data Analyst, Financial Analyst, AI Specialist"></span></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img src="/static/assets/img/p4.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p><span class="title-s">Name: </span> <span>Izah Godsent</span></p>
+                        <p><span class="title-s">Profile: </span> <span>Data Analyst</span></p>
+                        <p><span class="title-s">Email: </span> <span>godsentizah@gmail.com</span></p>
+                        <p><span class="title-s">Phone: </span> <span>(587) 318-2436</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-mf">
+                    <p class="title-s">Skill</p>
+                    <span>Excel</span> <span class="pull-right">85%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Python</span> <span class="pull-right">75%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>KPI Reports</span> <span class="pull-right">50%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>SQL</span> <span class="pull-right">90%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About me
+                      </h5>
+                    </div>
+                    <p class="lead">
+                     
+                      I am Godsent Izah, a dedicated data and financial analyst known for my analytical prowess and motivation. As a Certified Excel Specialist, I bring a wealth of experience in evaluating dashboards and crafting insightful KPI reports.   
+
+                    </p>
+                    <p class="lead">
+                      Proficient in SQL, Python, Tableau, and Power BI, I am adept at transforming raw data into actionable insights. My expertise extends beyond traditional analytics, encompassing a growing fluency in artificial intelligence and product lifecycle analytics.
+                    </p>
+                    <p class="lead">
+                      I thrive on solving complex problems and excel in leveraging data-driven strategies to inform decision-making processes. With a passion for continuous learning and staying at the forefront of technological advancements, I am committed to driving organizational success through data-driven excellence.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services-mf pt-5 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Services
+              </h3>
+              <p class="subtitle-a">
+                Elevate your Data Analysis Experience with Our Comprehensive Services
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Strategic Data Mining</h2>
+                <p class="s-description text-center">
+                  Uncover hidden insights and patterns in your data through our Strategic Data Mining services. We employ advanced techniques to extract valuable information, providing you with a solid foundation for informed decision-making and strategic planning.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Innovative ChatBot Development</h2>
+                <p class="s-description text-center">
+                  Revolutionize your customer interactions with our Innovative ChatBot Development services. We design and implement cutting-edge chatbots to enhance user engagement, streamline communication processes, and provide seamless user experiences.
+                </p>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Analytics Roadmaps</h2>
+                <p class="s-description text-center">
+                  Navigate the path to success with our Analytics Roadmaps tailored to your business needs. We develop comprehensive strategies that leverage data insights, ensuring optimal performance, and sustained growth for your organization.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Marketing Automation</h2>
+                <p class="s-description text-center">
+                  Elevate your marketing strategies with Marketing Automation. Our services empower you to optimize campaigns, target audiences effectively, and achieve greater efficiency in your marketing efforts through automated processes.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Designing and Implementing AI Solutions</h2>
+                <p class="s-description text-center">
+                  Harness the potential of artificial intelligence with our Designing and Implementing AI Solutions. We tailor AI solutions to meet your specific needs, driving innovation, efficiency, and intelligent decision-making within your organization.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Data Management</h2>
+                <p class="s-description text-center">
+                  Streamline and organize your data effectively with our Data Management services. From data storage to retrieval, our solutions ensure data integrity, security, and accessibility, providing a solid foundation for your data-driven initiatives.
+                </p>
+              </div>
+            </div>
+          </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Counter Section ======= -->
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-check"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">WORKS COMPLETED</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">YEARS OF EXPERIENCE</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-people"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">TOTAL CLIENTS</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-award"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">AWARD WON</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Counter Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Portfolio
+              </h3>
+              <p class="subtitle-a">
+                Explore Our Data-Driven Success Stories and Analytical Achievements
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="/static/assets/img/t6.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="/static/assets/img/t15.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Movie portfolio analysis</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Scraping</span> / <span class="w-date">January. 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="/static/assets/img/t4.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="/static/assets/img/t2.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">HR Analytics Dashboard</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">November. 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="/static/assets/img/t3.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="/static/assets/img/t3.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">London Bikes Dashboard DataSet</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Scraping</span> / <span class="w-date">December. 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Bindo Laro Cado</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-5.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Studio Lena Mado</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Studio Big Bang</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+      
+    
+
+    <!-- ======= Testimonials Section ======= -->
+    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-box">
+                    <div class="author-test">
+                      <img src="/static/assets/img/DP.jpg" alt="" class="rounded-circle b-shadow-a img-fluid" style="width:120px">
+                      <span class="author">Carrington Obinna</span>
+                    </div>
+                    <div class="content-test">
+                      <p class="description lead">
+                     Thanks alot Data Sage, The AI you created for me has been fully integrated to all my webiste which has been very useful to me .
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                
+
+                <div class="swiper-slide">
+                  <div class="testimonial-box">
+                    <div class="author-test">
+                      <img src="/static/assets/img/ema1.jpg" alt="" class="rounded-circle b-shadow-a img-fluid" style="width:120px">
+                      <span class="author">Emmah Akomenomo</span>
+                    </div>
+                    <div class="content-test">
+                      <p class="description lead">
+                        I'm incredibly impressed with the work you've done. Your expertise has transformed our platform. We've seen a significant increase in user engagement, and the new features you implemented are fantastic!
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
+          
+        </div> -->
+          </div>
+        </div>
+      </div>
+    </div><!-- End Testimonials Section -->
+
+     <!-- ======= Blog Section ======= -->
+     <section id="blog" class="blog-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Data Insights Blog
+              </h3>
+              <p class="subtitle-a">
+                Explore valuable insights and data-driven stories.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href=""><img src="/static/assets/img/w5.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Data Analysis</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="blog-single.html">Unlocking Business Insights through Data Analysis</a></h3>
+                <p class="card-description">
+                  Explore the power of data analysis in deriving actionable insights for business decisions.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="/static/assets/img/dd1.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Samuel Adeola</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 8 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href=""><img src="/static/assets/img/w4.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Data Visualization</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="#">The Art of Effective Data Visualization</a></h3>
+                <p class="card-description">
+                  Dive into the principles and techniques of creating compelling visualizations to communicate data effectively.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="/static/assets/img/dd4.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Melissa Johnson</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 6 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href=""><img src="/static/assets/img/w2.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Predictive Analytics</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="#">Harnessing Predictive Analytics for Business Growth</a></h3>
+                <p class="card-description">
+                  Learn how predictive analytics can help businesses make informed decisions and drive growth.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="/static/assets/img/dd2.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Alex Williams</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 7 min
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Blog Section -->
+    
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Send Message Us
+                      </h5>
+                    </div>
+                    <div>
+          <!-- Assuming your HTML template is named 'contact.html' -->
+
+          <form action="https://formsubmit.co/godsentizah@gmail.com" method="POST" onsubmit="showThankYouPopup()">
+            <input type="hidden" name="_captcha" value="false">
+            <div class="row">
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label for="name" class="form-control-label">Your Name</label>
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label for="email" class="form-control-label">Your Email</label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label for="phone" class="form-control-label">Your Phone Number</label>
+                        <input type="tel" name="phone" id="phone" class="form-control" placeholder="Your Phone Number" required>
+                    </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label for="subject" class="form-control-label">Subject</label>
+                        <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="message" class="form-control-label">Message</label>
+                        <textarea name="message" id="message" class="form-control" placeholder="Message" rows="5" required></textarea>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center mt-3">
+                    <button type="submit" class="btn btn-outline-primary">Send Message</button>
+                </div>
+            </div>
+
+              <!-- Thank You Popup -->
+<div id="thankYouPopup" class="popup">
+  <div class="popup-content">
+      <span class="close" onclick="closeThankYouPopup()">&times;</span>
+      <h2>Thank You!</h2>
+      <p>Your message has been successfully submitted.</p>
+  </div>
+</div>
+        </form>
+        
+
+
+        
+
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Get in Touch
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
+                        At the heart of our mission is the belief that communication is the key to forging meaningful connections. We invite you to reach out and share your thoughts, inquiries, or simply say hello. Your voice matters, and through this form, we welcome the opportunity to engage in a dialogue that goes beyond words on a screen. Let's build a bridge of understanding and explore the endless possibilities together. Your message is the first step towards a journey of collaboration and discovery. Thank you for choosing to connect with us!
+                    </p>
+                    <ul class="list-ico">
+                      <li><span class="bi bi-geo-alt"></span> Alberta, Canada</li>
+                      <li><span class="bi bi-phone"></span> (587) 318-2436</li>
+                      <li><span class="bi bi-envelope"></span> godsentizah@gmail.com</li>
+                 
+                  </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="https://www.facebook.com/godsent.izah"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                        <li><a href="https://www.instagram.com/bennydope6?igsh=MWhndGdkZzk3bTJ4OA=="><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+                        <li><a href="https://x.com/PerfectAcademy_?t=LArqS4t7zJJzj9oEksgCFw&s=09"><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/godsent-izah-69b0461a4"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="copyright-box">
+                    <p class="small text-center pt-2">
+                        <i>&copy; Designed By
+                            <a href="">
+                                <img src="{{ url_for('static', filename='assets/img/circle2.png') }}" class="fa-fade mx-auto" id="iconfooter"> CyberSage
+                            </a>
+                         
+                        </i>
+                        2024
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!-- End  Footer -->
+
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="/static/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/static/assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="/static/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/static/assets/js/main.js"></script>
+  <script>
+    function showThankYouPopup() {
+        // Show the thank you popup
+        document.getElementById('thankYouPopup').style.display = 'flex';
+
+        // Hide the popup and reload the page after 3 seconds (adjust the delay as needed)
+        setTimeout(function () {
+            document.getElementById('thankYouPopup').style.display = 'none';
+            location.reload();
+        }, 3000); // 3000 milliseconds = 3 seconds
+    }
+
+    function closeThankYouPopup() {
+        document.getElementById('thankYouPopup').style.display = 'none';
+    }
+</script>
+
+
+
+</body>
+
+</html>
